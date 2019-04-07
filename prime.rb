@@ -15,4 +15,4 @@ def prime?(number)
       break
     end
     counter += 1
-  
+  end
