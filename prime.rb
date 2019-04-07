@@ -6,7 +6,9 @@ def prime?(number)
   counter = 0
   
   if number == 2
-    return
+    return prime
+  
+  
   
   while i < number/2
     array << i
