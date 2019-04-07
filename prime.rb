@@ -8,4 +8,5 @@ def prime?(number)
     array << i
   end
   
-  array.each do |
+  array.each do |div|
+    
