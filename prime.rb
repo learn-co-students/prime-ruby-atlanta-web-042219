@@ -6,19 +6,13 @@ def prime?(number)
   counter = 0
   
   if number == 2
-      
+    return
   
   while i < number/2
     array << i
   end
   
-  array.each do |div|
-    if number % array[counter] == 0
-      prime = false
-      break
-    end
-    counter += 1
-    end
+
     
     prime
   end
